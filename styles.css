@@ -1,0 +1,42 @@
+body{
+  background-image: url('img/starry_night.jpg');
+  background-size: cover;
+  font-family: fantasy;
+}
+
+.inputs-div{
+  background-color: white;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+img{
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  opacity: var(--opacity);
+  filter: blur(var(--blur));
+  padding: var(--spacing);
+
+
+}
+
+.img-div{
+  width: var(--width);
+  margin: 0 auto;
+  background-color: var(--bg-color);
+}
+
+.input{
+  text-align: center;
+  margin: 10px auto 0 auto;
+
+}
+
+:root{
+  --blur: 0px;
+  --spacing: 20px;
+  --bg-color: black;
+  --opacity: 1;
+  --width: 50%;
+}
